@@ -13,8 +13,7 @@ namespace JungleAdventure.Source.Systems
             float x = (float)System.Math.Floor(mousePos.X / 32) * 32;
             float y = (float)System.Math.Floor(mousePos.Y / 32) * 32;
             
-            // Add a new 'Home' entity at this location
-            // _entityManager.Add(new House(new Vector2(x, y)));
+          
         }
     }
 }
